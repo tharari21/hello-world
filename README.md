@@ -47,3 +47,5 @@ the -u origin main only needs to be done once - every other time you can just sa
 **git branch <branchname>** - Create new branch (a branch is a copy of the main branch)
 **git checkout <branchname>** - Switch to branchname
 **git checkout -** - Switch to previous branch you were on
+
+**git push -u origin <branchname>** OR **git push --set-upstream origin <branchname>** - When in a new branch and you want to push use this
